@@ -1,0 +1,25 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=1
+persist.service.acm.enable=0
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=0
+ro.zygote=zygote64_32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+persist.sys.usb.config=mtp,adb
+ro.mount.fs=EXT4
+camera.disable_zsl_mode=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=2018年 01月 09日 星期二 19:05:00 CST
+ro.bootimage.build.date.utc=1515495900
+ro.bootimage.build.fingerprint=GIONEE/F103_Pro/GIONEE_GBL7360:6.0/MRA58K/1510548660:user/release-keys

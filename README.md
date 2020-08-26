@@ -1,0 +1,13 @@
+# full_gionee6735_66c_m0-user 6.0 MRA58K 1510548660 release-keys
+- manufacturer: gionee
+- platform: mt6735
+- codename: GIONEE_GBL7360
+- flavor: full_gionee6735_66c_m0-user
+- release: 6.0
+- id: MRA58K
+- incremental: 1510548660
+- tags: release-keys
+- fingerprint: GIONEE/F103_Pro/GIONEE_GBL7360:6.0/MRA58K/1510548660:user/release-keys
+- brand: GIONEE
+- branch: full_gionee6735_66c_m0-user-6.0-MRA58K-1510548660-release-keys
+- repo: gionee_gionee_gbl7360_dump

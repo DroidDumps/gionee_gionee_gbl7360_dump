@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<amigosetting version="1">
+<amigosetting amigoname="force_touch_swich" amigovalue="0"/>
+<amigosetting amigoname="force_touch_screen_switch" amigovalue="0"/>
+<amigosetting amigoname="force_touch_open_app_switch" amigovalue="0"/>
+<amigosetting amigoname="force_touch_functionswitch" amigovalue="0"/>
+<amigosetting amigoname="force_touch_app0" amigovalue="com.android.settings/com.android.settings.GnSettingsTabActivity"/>
+<amigosetting amigoname="force_touch_app1" amigovalue="com.amigo.search/com.amigo.search.MainActivity"/>
+<amigosetting amigoname="force_touch_app2" amigovalue="com.gionee.note/com.gionee.note.HomeActivity"/>
+<amigosetting amigoname="is_new_black_gesture_on" amigovalue="1"/>
+<amigosetting amigoname="is_psensor_browse_picture_dg" amigovalue="1"/>
+<amigosetting amigoname="is_psensor_ctrl_video_dg" amigovalue="1"/>
+<amigosetting amigoname="is_vibration_alert_on" amigovalue="1"/>
+<amigosetting amigoname="is_sdg_light_screen_on" amigovalue="1"/>
+<amigosetting amigoname="is_sdg_unlock_on" amigovalue="1"/>
+<amigosetting amigoname="is_sdg_desktop_slide_on" amigovalue="1"/>
+<amigosetting amigoname="is_fast_camera_on" amigovalue="0"/>
+<amigosetting amigoname="is_exist_private_space" amigovalue="1"/>
+<amigosetting amigoname="is_vibration_effect_on" amigovalue="0"/>
+<amigosetting amigoname="is_exist_home_key_settings" amigovalue="0"/>
+<amigosetting amigoname="is_glove_patterns_on" amigovalue="0"/>
+<amigosetting amigoname="black_gesture_m" amigovalue="4:playpause"/>
+<amigosetting amigoname="black_gesture_s" amigovalue="0:selfie"/>
+<amigosetting amigoname="black_gesture_w" amigovalue="1:com.whatsapp/com.whatsapp.Main"/>
+<amigosetting amigoname="black_gesture_config_value" amigovalue="839"/>
+<amigosetting amigoname="blackgesture_support_doublefinger" amigovalue="0"/>
+<amigosetting amigoname="ssg_switch" amigovalue="0"/>
+</amigosetting>

@@ -1,0 +1,22 @@
+[ {
+  "name" : "ગુજરાતી",
+  "language" : "gu",
+  "country" : "IN",
+  "sha1" : "762a90147b8beb8944562fef2291bc90e1756195",
+  "version" : 105,
+  "archive" : "file:///system/com.touchtype/gu_IN.zip"
+}, {
+  "name" : "हिन्दी",
+  "language" : "hi",
+  "country" : "IN",
+  "sha1" : "5b89441067509866e632d9b5682cdc608884e79e",
+  "version" : 127,
+  "archive" : "file:///system/com.touchtype/hi_IN.zip"
+}, {
+  "name" : "मराठी",
+  "language" : "mr",
+  "country" : "IN",
+  "sha1" : "b44ff6c06fa61f8c04bc3392d2bb73d17c34c3ad",
+  "version" : 116,
+  "archive" : "file:///system/com.touchtype/mr_IN.zip"
+} ]

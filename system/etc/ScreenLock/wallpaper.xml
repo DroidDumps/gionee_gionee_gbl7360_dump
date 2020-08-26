@@ -1,0 +1,83 @@
+﻿{
+    "imgs": 
+	[
+        {
+            "ImageName": "6.jpg",
+            "ImageTitle": "Love Poem in Marble",
+            "ImageContent": "Only let this one tear-drop, this Tajmahal, glisten spotlessly bright on the cheek of time, forever and ever. ",
+            "ImageSource": "VCG",
+            "Background": "#2e53f0",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "" ,
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "1"
+        },
+        {
+            "ImageName": "1.jpg",
+            "ImageTitle": "To be needed, to be loved!",
+            "ImageContent": "I am unique creature of nature. I will accept---yes, indeed, celebrate---my differences. ",
+            "ImageSource": "VCG",
+            "Background": "#8e6969",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "",            
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "0"
+        },
+        {
+            "ImageName": "2.jpg",
+            "ImageTitle": "Blessings that lie in sight",
+            "ImageContent": "Darkness would make us more appreciative of sight; silence would teach us the joys of sound. ",
+            "ImageSource": "VCG",
+            "Background": "#77637e",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "",
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "0"
+        },
+        {
+            "ImageName": "3.jpg",
+            "ImageTitle": "Solitude",
+            "ImageContent": "Learn how to walk away from people and situations that threaten your peace of mind, self respect or your self worth.",
+            "ImageSource": "VCG",
+            "Background": "#aa762a",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "",            
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "0"
+        },
+        {
+            "ImageName": "4.jpg",
+            "ImageTitle": "Joy of living",
+            "ImageContent": "Life isn't about waiting for the storm to pass, it's about learning to dance in the rain.",
+            "ImageSource": "VCG",
+            "Background": "#4f753c",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "",            
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "0"
+        },
+        {
+            "ImageName": "5.jpg",
+            "ImageTitle": "Music speaks",
+            "ImageContent": "When words fail, music speaks. It tells the truth whether you want it to or you don't.",
+            "ImageSource": "VCG",
+            "Background": "#6f0000",
+            "ShowTimeBegin": "",
+            "ShowTimeEnd": "" ,
+			"MusicName": "",
+			"MusicSinger": "",
+			"MusicURL": "",
+			"Lock": "0"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-size:62.5%;}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+q:before, q:after { content: '' }
+body { -webkit-tap-highlight-color: transparent; -webkit-overflow-scrolling: touch; background-color: #f6f5f5; font: normal 16px/1.43 "思源黑体", Courier, "Courier New", Arial, sans-serif }
+.swipe { overflow: hidden!important; position: relative }
+.swipe-wrap { overflow: hidden; position: relative; width: 100% }
+.swipe-wrap > li { float: left; width: 100%; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 20px 20px; overflow: hidden }
+.swipe-wrap h1 { color: #ff9000; font-size: 1.2em; line-height: 1.5; margin-top: 0.8em }
+.swipe-wrap h2 { color: #333; font-size: 1.1em; line-height: 1.5; margin-top: 0.8em }
+.swipe-wrap p { color: #333; font-size: 1.02em; line-height: 1.5; margin-top:0.6em }
+#scroll_position { position: fixed; bottom: 0; text-align: center; height: 35px; line-height: 50px; padding: 35px 0 0; width: 100%; overflow: hidden; background: url(footer.png) top left repeat-x; background-size: 100% 90px; z-index: 12 }
+#scroll_position li { width: 14px; height: 14px; display: inline-block; text-indent: -99999px; background: url("pager.png") no-repeat -14px -0px; cursor:pointer; }
+#scroll_position li.on { background-position: 0 0 }
+.attention { display: none; color: #ff9000; font-weight: bold; vertical-align: middle;  margin-right:0.5em; margin-top:-0.3em }
+.swipe-wrap1 { overflow: hidden; position: relative; width: 100% }

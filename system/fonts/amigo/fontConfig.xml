@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fontInfo version="1">
+<fontInfo fontname="默认字体" fontname-eng="Default Font" fontfile="DroidSansFallbackFull.ttf"/>
+<fontInfo fontname="汉仪晴空体" fontname-eng="HY QingKongTi" fontfile="HYQingKongTiJ.ttf"/>
+<fontInfo fontname="汉仪楷体" fontname-eng="HY KaiTi" fontfile="hyc1gjm.ttf"/>
+<fontInfo fontname="汉仪中等线" fontname-eng="HY ZhongDengXian" fontfile="hyg2gjm.ttf"/>
+<fontInfo fontname="汉仪帅线" fontname-eng="HY ShuaiXianTi" fontfile="HYShuaiXianTiW.ttf"/>
+<fontInfo fontname="汉仪旗黑体" fontname-eng="HY QiHei" fontfile="HYQiHei-50S.otf"/>
+<!--Gionee lijinfang 2016-5-13 modify for CR01698675 begin-->
+<fontInfo fontname="汉仪乐喵体" fontname-eng="HY LeMiaoTi" fontfile="HYLeMiaoTi.ttf"/>
+<fontInfo fontname="汉仪星宇体" fontname-eng="HY XingYuTi" fontfile="HYXingYuTiJ.ttf"/>
+<fontInfo fontname="汉仪PP体" fontname-eng="HY PPTi" fontfile="HYPPTiJ.ttf"/>
+<fontInfo fontname="汉仪黑荔枝体" fontname-eng="HY HeiLiZhiTi" fontfile="HYHeiLiZhiTiJ.ttf"/>
+<fontInfo fontname="汉仪元隆黑" fontname-eng="HY YuanLongHei" fontfile="HYYuanLongHei-35J.ttf"/>
+<!--Gionee lijinfang 2016-5-13 modify for CR01698675 end-->
+</fontInfo>
+

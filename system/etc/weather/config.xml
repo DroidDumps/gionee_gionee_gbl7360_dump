@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--   晴天_白天：sun_day
+       晴天_晚上：sun_night
+       阴天_白天：overcast_day
+       阴天_晚上：overcast_night
+       多云_白天：cloudy_day
+       多云_晚上：cloudy_night
+       沙尘暴_白天：sandstorm_day
+       沙尘暴_晚上：sandstorm_night
+       雨_白天：rain_day
+       雨_晚上:rain_night
+       雪_白天：snow_day
+       雪_晚上：snow_night
+       大暴雨_白天：downpour_day
+       大暴雨_晚上：downpour_night
+       雷阵雨_白天：thundershower_day
+       雷阵雨_晚上：thundershower_night
+       雾_白天：fog_day
+       雾_晚上：fog_night
+       冰雹：hail
+       霜冻：frost
+       默认：default
+      
+-->
+<apps xmlns:weather="http://schemas.android.com/apk/res/com.gionee.amiweather" >
+<weather themename="theme_5"/>
+<weather name="snow_day" videoname="xue_baitian.mp4" framename="bg_static_snow_day2.jpg"/>
+<weather name="snow_night" videoname="xue_baitian.mp4" framename="bg_static_snow_day2.jpg"/>
+<weather name="cloudy_day" videoname="duoyun_baitian.mp4" framename="bg_static_cloudy_day2.jpg"/>
+<weather name="cloudy_night" videoname="duoyun_wanshang.mp4" framename="bg_static_cloudy_night2.jpg"/>
+<weather name="downpour_day" videoname="dabaoyu_baitian.mp4" framename="bg_static_downpour_day2.jpg"/>
+<weather name="downpour_night" videoname="dabaoyu_baitian.mp4" framename="bg_static_downpour_day2.jpg"/>
+<weather name="rain_day" videoname="yu_baitian.mp4" framename="bg_static_rain_day2.jpg"/>
+<weather name="rain_night" videoname="yu_baitian.mp4" framename="bg_static_rain_day2.jpg"/>
+<weather name="sun_day" videoname="qingtian_baitian.mp4" framename="bg_static_sun_day2.jpg"/>
+<weather name="sun_night" videoname="qingtian_wanshang.mp4" framename="bg_static_sun_night2.jpg"/>
+<weather name="sandstorm_day" videoname="shachenbao_baitian.mp4" framename="bg_static_sandstorm_day2.jpg"/>
+<weather name="sandstorm_night" videoname="shachenbao_baitian.mp4" framename="bg_static_sandstorm_day2.jpg"/>
+<weather name="overcast_day" videoname="yintian_baitian.mp4" framename="bg_static_overcast_day2.jpg"/>
+<weather name="overcast_night" videoname="yintian_baitian.mp4" framename="bg_static_overcast_day2.jpg"/>
+<weather name="thundershower_day" videoname="leizhenyu_baitian.mp4" framename="bg_static_thundershower_day2.jpg"/>
+<weather name="thundershower_night" videoname="leizhenyu_baitian.mp4" framename="bg_static_thundershower_day2.jpg"/>
+<weather name="fog_day" videoname="wu_baitian.mp4" framename="bg_static_fog_day2.jpg"/>
+<weather name="fog_night" videoname="wu_baitian.mp4" framename="bg_static_fog_day2.jpg"/>
+<weather name="default" videoname="qingtian_baitian.mp4" framename="bg_static_sun_day2.jpg"/>
+
+</apps> 
+
+
+
