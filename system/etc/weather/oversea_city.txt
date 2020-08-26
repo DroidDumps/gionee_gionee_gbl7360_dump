@@ -1,0 +1,102 @@
+﻿;注释
+;默认城市
+;默认城市id必须设置准确，id获取方法：使用天气添加城市，使用命令“adb logcat | grep setCityInfo”，即可获取该城市id
+@default:新德里,gn1261481,印度,New Delhi,xindeli,xdl,India
+;国际化语言
+@locale:zh_CN,zh_TW
+
+;chineseName,id,chineseCountryName,englishName,chineseSpellName,shortChineseSpellName,englishCountryName
+;id默认设为more，也可以设置为准确的id
+;中国城市
+北京,gn1816670,中国,Beijing,beijing,bj,China
+深圳,gn1795565,中国,Shenzhen,shenzhen,sz,China
+上海,gn1796236,中国,Shanghai,shanghai,sh,China
+天津,gn1792947,中国,Tianjin,tianjin,tj,China
+
+;海外城市
+东京,gn1850144,日本,Tokyo,dongjing,dj,Japan
+京都,gn1857910,日本,Kyoto,jingdu,jd,Japan
+平壤,gn1871859,朝鲜,Pyongyang,pingrang,pr,North Korea
+首尔,69611,韩国,Seoul,shouer,se,South Korea
+乌兰巴托,gn2028462,蒙古国,Ulan Bator,wulanbatuo,wlbt,Mongolia
+马尼拉,gn1701668,菲律宾,Manila,manila,mnl,Philippines
+河内,gn1581130,越南,Hanoi,henei,hn,Vietnam
+曼谷,75672,泰国,Bangkok,mangu,mg,Thailand
+吉隆坡,gn1733046,马来西亚,Kuala Lumpur,jilongpo,jlp,Malaysia
+新加坡,gn1880252,新加坡,Singapore,xinjiapo,xjp,Singapore
+斯里巴加湾,gn1820906,文莱,Bandar Seri Begawan,silibajiawan,slbjw,Brunei
+雅加达,63793,印度尼西亚,Jakarta,yajiada,yjd,Indonesia
+仰光,gn1298824,缅甸,Rangoon,yangguang,yg,Burma
+科伦坡,69683,斯里兰卡,Colombo,kelunpo,klp,Sri Lanka
+新德里,gn1261481,印度,New Delhi,xindeli,xdl,India
+孟买,gn1275339,印度,Mumbai,mengmai,mm,India
+卡拉奇,gn1174872,巴基斯坦,Karachi,kalaqi,klq,Pakistan
+德黑兰,gn112931,伊朗,Tehran,deheilan,dhl,Iran
+大马士革,gn170654,叙利亚,Damascus,damashige,dmsg,Syria
+利雅得,gn108410,沙特阿拉伯,Riyadh,liyade,lyd,Saudi Arabia
+开罗,gn360630,埃及,Cairo,kailuo,kl,Egypt
+突尼斯,gn2464470,突尼斯,Tunis,tunisi,tns,Tunisia
+阿尔及尔,gn2507480,阿尔及利亚,Algiers,aerjier,aeje,Algeria
+达喀尔,gn2253354,塞内加尔,Dakar,dakaer,dke,Senegal
+拉各斯,gn2332453,尼日利亚,Lagos,lagesi,lgs,Nigeria
+金沙萨,gn2314302,刚果,Kinshasa,jinshasa,jss,Congo
+内罗毕,gn184742,肯尼亚,Nairobi,neiluobi,nlb,Kenya
+达累斯萨拉姆,gn160263,坦桑尼亚,Dar es Salaam,daleisisalamu,dlsslm,Tanzania
+约翰内斯堡,gn993800,南非,Johannesburg,yuehanneisibao,yhnsb,South Africa
+开普敦,gn3369157,南非,Cape Town,kaipudun,kpd,South Africa
+莫斯科,gn524901,俄罗斯,Moscow,mosike,msk,Russia
+基辅,gn703448,乌克兰,Kiev,jifu,jf,United Kingdomraine
+华沙,gn756135,波兰,Warsaw,huasha,hs,Poland
+斯德哥尔摩,gn2673730,瑞典,Stockholm,sidegeermo,sdgem,Sweden
+赫尔辛基,gn658225,芬兰,Helsinki,heerxinji,hexj,Finland
+奥斯陆,gn3143244,挪威,Oslo,aosilu,asl,Norway
+哥本哈根,gn2618425,丹麦,Copenhagen,gebenhagen,gbhg,Denmark
+柏林,58439,德国,Berlin,bolin,bl,Germany
+法兰克福,gn6553153,德国,Frankfurt,falankefu,flkf,Germany
+汉堡,gn2911298,德国,Hamburg,hanbao,hb,Germany
+阿姆斯特丹,gn2759794,荷兰,Amsterdam,amusitedan,amstd,Netherlands
+布鲁塞尔,gn2800866,比利时,Brussels,bulUnited Statesier,blse,Belgium
+苏黎世,54504,瑞士,Zurich,sulishi,sls,Switzerland
+日内瓦,gn7285902,瑞士,Geneva,rineiwa,rnw,Switzerland
+维也纳,gn2761369,奥地利,Vienna,weiyena,wyn,Austria
+米兰,gn3173435,意大利,Milan,milan,ml,Italy
+马赛,gn6447142,法国,Marseille,masai,ms,France
+巴黎,gn2988506,法国,Paris,bali,bl,France
+伦敦,gn2643743,英国,London,lundun,ld,United Kingdom
+曼彻斯特,60709,英国,Manchester,manchesite,mcst,United Kingdom
+马德里,gn6355233,西班牙,Madrid,madeli,mdl,Spain
+巴塞罗那,gn3128759,西班牙,Barcelona,basailuona,bsln,Spain
+罗马,67205,意大利,Rome,luoma,lm,Italy
+雅典,63340,希腊,Athens,yadian,yd,Greece
+伊斯坦布尔,gn745042,土耳其,Istanbul,yisitanbuer,ystbe,Turkey
+多伦多,gn6167865,加拿大,Toronto,duolunduo,dld,Canada
+蒙特利尔,gn6077243,加拿大,Montreal,mengtelier,mtle,Canada
+渥太华,gn6094817,加拿大,Ottawa,wotaih,wth,Canada
+芝加哥,14745,美国,Chicago,zhijiage,zjg,United States
+纽约,gn5128638,美国,New York,niuyue,ny,United States
+波士顿,gn4930956,美国,Boston,boshidun,bsd,United States
+华盛顿,gn5815135,美国,Washington,huashengdun,hsd,United States
+亚特兰大,gn4180439,美国,Atlanta,yatelanda,ytld,United States
+迈阿密,gn4164138,美国,Miami,maiami,mam,United States
+休斯敦,gn4699066,美国,Houston,xiusidun,xsd,United States
+温哥华,gn6173331,加拿大,Vancouver,wengehua,wgh,Canada
+西雅图,gn5809844,美国,Seattle,xiyatu,xyt,United States
+旧金山,gn5391959,美国,San Francisco,jiujinshan,jjs,United States
+洛杉矶,gn5368361,美国,Los Angeles,luoshanji,lsj,United States
+拉斯维加斯,gn5506956,美国,Las Vegas,lasiweijiasi,lswjs,United States
+夏威夷,gn5855797,美国,Hawaii,xiaweiyi,xwy,United States
+哈瓦那,gn3553478,古巴,Havana,hawana,hwn,Cuba
+墨西哥城,gn3530597,墨西哥,Mexico City,moxigecheng,mxgc,Mexico
+加拉加斯,gn3646738,委内瑞拉,Caracas,jialajiasi,jljs,Venezuela
+利马,gn3936452,秘鲁,Lima,lima,lm,Peru
+里约热内卢,gn6322060,巴西,Rio de Janeiro,liyuereneilu,lyrnl,Brazil
+圣保罗,gn3448433,巴西,Sao Paulo,shengbaoluo,sbl,Brazil
+布宜诺斯艾利斯,gn3435907,阿根廷,Buenos Aires,buyinuosiailisi,bynsals,Argentina
+圣地亚哥,gn3871336,智利,Santiago,shengdiyage,sdyg,Chile
+泊斯,gn2063523,澳大利亚,Perth,bosi,bs,Australia
+布里斯班,gn2174003,澳大利亚,Brisbane,bulisiban,blsb,Australia
+悉尼,gn2147714,澳大利亚,Sydney,xini,xn,Australia
+墨尔本,gn2158177,澳大利亚,Melbourne,moerben,meb,Australia
+奥克兰,gn2193734,新西兰,Auckland,aokelan,akl,New Zealand
+惠灵顿,gn2179537,新西兰,Wellington,huilingdun,hld,New Zealand
+伊斯兰堡,gn1176615,巴基斯坦,Islamabad,yisilanbao,yslb,Pakistan

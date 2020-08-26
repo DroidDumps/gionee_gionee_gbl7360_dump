@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suibian>
+  <version>4</version>
+  <description>Windows Phone Style launcher</description>
+  <density-dpi>320</density-dpi>
+  <resolution>1280, 720</resolution>
+  <workspace>
+    <dock>
+      <col>4</col>
+      <height>93</height>
+
+      <!--Phone-->
+      <shortcut>
+        <cell>0,0,1,1</cell>
+        <component>com.android.contacts/com.android.contacts.activities.DialtactsActivity</component>
+        <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.contacts/com.android.contacts.activities.DialtactsActivity;end</intent>
+        <system-app-kind></system-app-kind>
+        <original-title>Phone</original-title>
+        <label-shown>true</label-shown>
+        <scale-mode>FIXED</scale-mode>
+        <custom-title></custom-title>
+        <move>true</move>
+        <delete>true</delete>
+        <effect>off</effect>
+        <effect-type>1</effect-type>
+      </shortcut>
+
+      <!--Camera-->
+        <shortcut>
+          <cell>1,1,1,1</cell>
+          <component>com.android.camera/com.android.camera.CameraLauncher</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.camera/com.android.camera.CameraLauncher;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Camera</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+
+        <!--Whatsapp-->
+        <shortcut>
+          <cell>2,2,1,1</cell>
+          <component>com.whatsapp/com.whatsapp.Main</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.whatsapp/com.whatsapp.Main;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Whatsapp</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+      <!--UC Browser-->
+      <shortcut>
+        <cell>3,3,1,1</cell>
+        <component>com.UCMobile.intl/com.UCMobile.main.UCMobile</component>
+        <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.UCMobile.intl/com.UCMobile.main.UCMobile;end</intent>
+        <system-app-kind></system-app-kind>
+        <original-title>UC Browser</original-title>
+        <label-shown>true</label-shown>
+        <scale-mode>FIXED</scale-mode>
+        <custom-title></custom-title>
+        <move>true</move>
+        <delete>true</delete>
+        <effect>off</effect>
+        <effect-type>1</effect-type>
+      </shortcut>
+    </dock>
+
+    <!-- Gionee: 20150411 chenrui modify for CR01448300 begin -->
+    <desktop>
+      <!-- screen 0 -->
+      <panel>
+        <grid>4,5</grid>
+        <inmargin>0</inmargin>
+        <top>4</top>
+        <bottom>0</bottom>
+        <left>8</left>
+        <right>8</right>
+        <lock>false</lock>
+
+        <!--Gallery-->
+        <shortcut>
+          <cell>0,3,1,1</cell>
+          <component>com.gionee.gallery/com.gionee.gallery.sb.app.GnGallery</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.gallery/com.gionee.gallery.sb.app.GnGallery;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Gallery</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!--Music-->
+        <shortcut>
+          <cell>1,3,1,1</cell>
+          <component>com.android.music/com.android.music.MusicScanResultActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.music/com.android.music.MusicScanResultActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Music</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!--Filemanager-->
+        <shortcut>
+          <cell>2,3,1,1</cell>
+          <component>com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>File Manager</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!--Settings-->
+        <shortcut>
+          <cell>3,3,1,1</cell>
+          <component>com.android.settings/com.android.settings.GnSettingsTabActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.settings/com.android.settings.GnSettingsTabActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Settings</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+      <!--Contacts-->
+      <shortcut>
+        <cell>0,4,1,1</cell>
+        <component>com.android.contacts/com.android.contacts.activities.PeopleActivity</component>
+        <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.contacts/com.android.contacts.activities.PeopleActivity;end</intent>
+        <system-app-kind></system-app-kind>
+        <original-title>Contacts</original-title>
+        <label-shown>true</label-shown>
+        <scale-mode>FIXED</scale-mode>
+        <custom-title></custom-title>
+        <move>true</move>
+        <delete>true</delete>
+        <effect>off</effect>
+        <effect-type>1</effect-type>
+      </shortcut>
+
+      <!--Messaging-->
+      <shortcut>
+        <cell>1,4,1,1</cell>
+        <component>com.android.mms/com.android.mms.ui.BootActivity</component>
+        <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.mms/com.android.mms.ui.BootActivity;end</intent>
+        <system-app-kind></system-app-kind>
+        <original-title>Messaging</original-title>
+        <label-shown>true</label-shown>
+        <scale-mode>FIXED</scale-mode>
+        <custom-title></custom-title>
+        <move>true</move>
+        <delete>true</delete>
+        <effect>off</effect>
+        <effect-type>1</effect-type>
+      </shortcut>
+
+      <!--Play Store-->
+        <shortcut>
+          <cell>2,4,1,1</cell>
+          <component>com.android.vending/com.android.vending.AssetBrowserActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.vending/com.android.vending.AssetBrowserActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Play Store</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!--Google Folder-->
+        <folder>
+          <cell>3,4,1,1</cell>
+          <background></background>
+          <label-shown>true</label-shown>
+          <title>Google</title>
+          <scale-mode>FIXED</scale-mode>
+          <move>true</move>
+          <delete>true</delete>
+
+				<shortcut>
+					<cell>0,0,1,1</cell>
+					<component>com.google.android.googlequicksearchbox/.SearchActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.googlequicksearchbox/.SearchActivity;end</intent>
+					<system-app-kind>Google</system-app-kind>
+					<original-title>Google</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>1,0,1,1</cell>
+					<component>com.android.chrome/com.google.android.apps.chrome.Main</component>
+					<intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.chrome/com.google.android.apps.chrome.Main;end</intent>
+					<system-app-kind>Chrome</system-app-kind>
+					<original-title>Chrome</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>2,0,1,1</cell>
+					<component>com.google.android.gm/com.google.android.gm.ConversationListActivityGmail</component>
+					<intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.gm/com.google.android.gm.ConversationListActivityGmail;end</intent>
+					<system-app-kind>Gmail</system-app-kind>
+					<original-title>Gmail</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+
+				<shortcut>
+					<cell>3,0,1,1</cell>
+					<component>com.google.android.apps.maps/com.google.android.maps.MapsActivity</component>                    <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.maps/com.google.android.maps.MapsActivity;end</intent>
+					<system-app-kind>Maps</system-app-kind>
+					<original-title>Maps</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>0,1,1,1</cell>
+					<component>com.google.android.youtube/.app.honeycomb.Shell$HomeActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.youtube/.app.honeycomb.Shell$HomeActivity;end</intent>
+					<system-app-kind>Youtube</system-app-kind>
+					<original-title>Youtube</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>1,1,1,1</cell>
+					<component>com.google.android.apps.docs/.app.NewMainProxyActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.docs/.app.NewMainProxyActivity;end</intent>
+					<system-app-kind>Drive</system-app-kind>
+					<original-title>Drive</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+
+				<shortcut>
+					<cell>2,1,1,1</cell>
+					<component>com.google.android.music/com.android.music.activitymanagement.TopLevelActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.music/com.android.music.activitymanagement.TopLevelActivity;end</intent>
+					<system-app-kind>Play Music</system-app-kind>
+					<original-title>Play Music</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>3,1,1,1</cell>
+					<component>com.google.android.videos/com.google.android.youtube.videos.EntryPoint</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.videos/com.google.android.youtube.videos.EntryPoint;end</intent>
+					<system-app-kind>Play Movies &amp; TV</system-app-kind>
+					<original-title>Play Movies &amp; TV</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>0,2,1,1</cell>
+					<component>com.google.android.talk/.SigningInActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.talk/.SigningInActivity;end</intent>
+					<system-app-kind>Hangouts</system-app-kind>
+					<original-title>Hangouts</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>1,2,1,1</cell>
+					<component>com.google.android.apps.photos/.home.HomeActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.photos/.home.HomeActivity;end</intent>
+					<system-app-kind>Photos</system-app-kind>
+					<original-title>Photos</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+<!--option -->
+				<shortcut>
+					<cell>2,2,1,1</cell>
+					<component>com.google.android.googlequicksearchbox/.VoiceSearchActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.googlequicksearchbox/.VoiceSearchActivity;end</intent>
+					<system-app-kind>Voice Search</system-app-kind>
+					<original-title>Voice Search</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+
+				<shortcut>
+					<cell>3,2,1,1</cell>
+					<component>com.google.android.gms/.app.settings.GoogleSettingsActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.gms/.app.settings.GoogleSettingsActivity;end</intent>
+					<system-app-kind>Google Settings</system-app-kind>
+					<original-title>Google Settings</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>0,3,1,1</cell>
+					<component>com.google.android.apps.plus/.phone.HomeActivity</component>                       <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.plus/.phone.HomeActivity;end</intent>
+					<system-app-kind>google+</system-app-kind>
+					<original-title>google+</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+
+
+				<shortcut>
+					<cell>1,3,1,1</cell>
+					<component>com.google.android.apps.books/.app.BooksActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.books/.app.BooksActivity;end</intent>
+					<system-app-kind>Play Books</system-app-kind>
+					<original-title>Play Books</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>2,3,1,1</cell>
+					<component>com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.magazines/com.google.apps.dots.android.app.activity.CurrentsStartActivity;end</intent>
+					<system-app-kind>Play Newsstand</system-app-kind>
+					<original-title>Play Newsstand</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>3,3,1,1</cell>
+					<component>com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity;end</intent>
+					<system-app-kind>Play Games</system-app-kind>
+					<original-title>Play Games</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+				<shortcut>
+					<cell>0,4,1,1</cell>
+					<component>com.google.android.apps.inputmethod.hindi/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity</component> <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.google.android.apps.inputmethod.hindi/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity;end</intent>
+					<system-app-kind>Google Hindi Input</system-app-kind>
+					<original-title>Google Hindi Input</original-title>
+					<label-shown>true</label-shown>
+					<scale-mode>FIXED</scale-mode>
+					<move>false</move>
+					<delete>false</delete>
+				</shortcut>
+        </folder>
+        <widget>
+          <cell>0,0,4,2</cell>
+          <provider>com.google.android.googlequicksearchbox/.SearchWidgetProvider</provider>
+          <widgetId>-1</widgetId>
+          <move>true</move>
+          <delete>true</delete>
+        </widget>
+
+      </panel>
+
+      <!-- screen 1 -->
+      <panel>
+        <grid>4,5</grid>
+        <inmargin>1</inmargin>
+        <top>4</top>
+        <bottom>0</bottom>
+        <left>8</left>
+        <right>8</right>
+        <lock>false</lock>
+
+        <!--Child mode-->
+        <shortcut>
+          <cell>0,2,1,1</cell>
+          <component>com.gionee.kidshome/.IndexActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.kidshome/.IndexActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Child Mode</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+	<!-- Video -->
+        <shortcut>
+          <cell>1,2,1,1</cell>
+          <component>com.gionee.video/com.gionee.video.VideoMainActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.video/com.gionee.video.VideoMainActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Video</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Theme Park -->
+        <shortcut>
+          <cell>2,2,1,1</cell>                    
+          <component>com.gionee.change/.activity.ChangeGridActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.change/.activity.ChangeGridActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Theme Park</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+	
+        <!-- Mood card -->
+        <shortcut>
+          <cell>3,2,1,1</cell>            
+          <component>gn.oversea.onlinewallpaper/.activities.WelcomeAnimationActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=gn.oversea.onlinewallpaper/.activities.WelcomeAnimationActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Amigo Paper</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Chameleon -->
+        <shortcut>
+            <cell>0,3,1,1</cell>
+            <component>com.amigo.chameleon/.ChameleonActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.amigo.chameleon/.ChameleonActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Chameleon</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+          </shortcut>
+
+        <!-- System Manager -->
+        <shortcut>
+          <cell>1,3,1,1</cell>
+          <component>com.gionee.softmanager/com.gionee.softmanager.MainActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.softmanager/com.gionee.softmanager.MainActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>System Manager</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Gstore -->
+        <shortcut>
+          <cell>2,3,1,1</cell>
+          <component>com.gionee.gamehall/.GNMainActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.gamehall/.GNMainActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Gstore</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+	
+        <!-- System update -->
+        <shortcut>
+          <cell>3,3,1,1</cell>
+          <component>gn.com.android.update/gn.com.android.update.ui.UpdateUiActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=gn.com.android.update/gn.com.android.update.ui.UpdateUiActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>System Update</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+	<!-- Abroad Service -->
+        <shortcut>
+          <cell>0,4,1,1</cell>
+          <component>com.gionee.travel/.ui.activity.WelcomeActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.travel/.ui.activity.WelcomeActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>AmiTravel</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Email -->
+        <shortcut>
+          <cell>1,4,1,1</cell>
+          <component>com.android.email/com.android.email.activity.Welcome</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.email/com.android.email.activity.Welcome;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Email</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Facebook -->
+        <shortcut>
+          <cell>2,4,1,1</cell>
+          <component>com.facebook.katana/com.facebook.katana.LoginActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.facebook.katana/com.facebook.katana.LoginActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Facebook</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+	<!-- Instagram-->
+	<shortcut>
+	  <cell>3,4,1,1</cell>
+	  <component>com.instagram.android/.activity.MainTabActivity</component>  
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.instagram.android/.activity.MainTabActivity;end</intent>
+	  <system-app-kind></system-app-kind>
+	  <original-title>Instagram</original-title>
+	  <label-shown>true</label-shown>
+	  <scale-mode>FIXED</scale-mode>
+	  <custom-title></custom-title>
+	  <move>true</move>
+	  <delete>true</delete>
+	  <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+        
+        <plugin>
+          <cell>0,0,4,1</cell>
+          <intent>#Intent;component=com.gionee.amisystem/.weather.PluginView;end</intent>
+          <original-title>Weather</original-title>
+          <custom-icon>Launcher/images/Plugin/com.gionee.amisystem.weather.PluginView.png</custom-icon>
+          <move>true</move>
+          <delete>true</delete>
+        </plugin>
+     </panel>
+
+     <!-- screen 2 -->
+     <panel>
+        <grid>4,5</grid>
+        <inmargin>2</inmargin>
+        <top>4</top>
+        <bottom>0</bottom>
+        <left>8</left>
+        <right>8</right>
+        <lock>false</lock>
+
+        <!-- Torch -->	
+        <shortcut>
+          <cell>0,3,1,1</cell>
+          <component>com.gionee.flashlight/com.gionee.flashlight.FlashLightActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.flashlight/com.gionee.flashlight.FlashLightActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Torch</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+          </shortcut>
+
+        <!-- Calculator -->	
+        <shortcut>
+            <cell>1,3,1,1</cell>
+            <component>com.android.calculator2/com.android.calculator2.Calculator</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.calculator2/com.android.calculator2.Calculator;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Calculator</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Clock -->	
+        <shortcut>
+          <cell>2,3,1,1</cell>
+          <component>com.android.deskclock/com.android.deskclock.AlarmClock</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.deskclock/com.android.deskclock.AlarmClock;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Clock</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Calendar -->	
+        <shortcut>
+          <cell>3,3,1,1</cell>
+          <component>com.android.calendar/com.android.calendar.AllInOneActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.calendar/com.android.calendar.AllInOneActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Calendar</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Userfeedback -->
+        <shortcut>
+          <cell>0,4,1,1</cell>
+          <component>com.gionee.telepath/com.gionee.telepath.FeedbackManagerActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.telepath/com.gionee.telepath.FeedbackManagerActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>User Feedback</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Tools Folder -->
+        <folder>
+          <cell>1,4,1,1</cell>
+          <background></background>
+          <label-shown>true</label-shown>
+          <title>Tools</title>
+          <scale-mode>FIXED</scale-mode>
+          <move>true</move>
+          <delete>true</delete>
+
+	<!--Sound Recorder-->
+	<shortcut>
+           <cell>0,0,1,1</cell>
+           <component>com.android.soundrecorder/com.android.soundrecorder.SoundRecorder</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.soundrecorder/com.android.soundrecorder.SoundRecorder;end</intent>
+           <system-app-kind></system-app-kind>
+           <original-title>Sound Recorder</original-title>
+           <label-shown>true</label-shown>
+           <scale-mode>FIXED</scale-mode>
+           <custom-title></custom-title>
+           <move>true</move>
+           <delete>true</delete>
+           <effect>off</effect>
+           <effect-type>1</effect-type>
+          </shortcut>
+
+	<!--FM-->
+        <shortcut>
+          <cell>1,0,1,1</cell>
+          <component>com.android.fmradio/.FmMainActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.fmradio/.FmMainActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>FM Radio</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Note -->
+        <shortcut>
+          <cell>2,0,1,1</cell>
+          <component>com.gionee.note/com.gionee.note.HomeActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.note/com.gionee.note.HomeActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Notes</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!-- Weather -->
+        <shortcut>
+          <cell>0,1,1,1</cell>
+          <component>com.coolwind.weather/com.coolwind.weather.SplashActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.coolwind.weather/com.coolwind.weather.SplashActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>Weather</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+        <!--Downloads-->
+	<shortcut>
+            <cell>1,1,1,1</cell>
+            <component>com.android.providers.downloads.ui/com.android.providers.downloads.ui.GnDownloadTabActivity</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.providers.downloads.ui/com.android.providers.downloads.ui.GnDownloadTabActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Downloads</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+          </shortcut> 
+
+        <!--Compass-->
+          <shortcut>
+            <cell>2,1,1,1</cell>
+            <component>jlzn.com.android.compass/jlzn.com.android.compass.JLZN_CompassActivity</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=jlzn.com.android.compass/jlzn.com.android.compass.JLZN_CompassActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Compass</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+          </shortcut>
+
+	  <!-- Chameleon -->
+	  <!-- 
+          <shortcut>
+            <cell>0,2,1,1</cell>
+            <component>com.amigo.chameleon/.ChameleonActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.amigo.chameleon/.ChameleonActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Chameleon</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+          </shortcut>
+	   -->
+
+	<!-- Mobile security -->	
+	<shortcut>
+            <cell>0,2,1,1</cell>
+            <component>com.gionee.antithefttrack/.MainSettingActivity</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gionee.antithefttrack/.MainSettingActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Mobile security</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+          </shortcut>
+
+       <!-- SIM Toolkit -->
+	<shortcut>
+            <cell>1,2,1,1</cell>
+            <component>com.android.stk/com.android.stk.StkLauncherActivity</component>
+            <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.stk/com.android.stk.StkLauncherActivity;end</intent>
+            <system-app-kind></system-app-kind>
+            <original-title>Sim Toolkit</original-title>
+            <label-shown>true</label-shown>
+            <scale-mode>FIXED</scale-mode>
+            <custom-title></custom-title>
+            <move>true</move>
+            <delete>true</delete>
+            <effect>off</effect>
+            <effect-type>1</effect-type>
+        </shortcut>
+ 
+        <!-- UIM Toolkit -->
+        <shortcut>
+          <cell>2,2,1,1</cell>
+          <component>com.android.utk/.UtkLauncherActivity</component>
+          <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.android.utk/.UtkLauncherActivity;end</intent>
+          <system-app-kind></system-app-kind>
+          <original-title>UIM Toolkit</original-title>
+          <label-shown>true</label-shown>
+          <scale-mode>FIXED</scale-mode>
+          <custom-title></custom-title>
+          <move>true</move>
+          <delete>true</delete>
+          <effect>off</effect>
+          <effect-type>1</effect-type>
+        </shortcut>
+
+      </folder>
+
+      <!-- Games Folder -->
+      <folder>
+        <cell>2,4,1,1</cell>
+        <background></background>
+        <label-shown>true</label-shown>
+        <title>Games</title>
+        <scale-mode>FIXED</scale-mode>
+        <move>true</move>
+        <delete>true</delete>
+
+	<!-- Asphalt Nitro -->
+	   <shortcut>
+             <cell>0,0,1,1</cell>
+             <component>com.gameloft.android.GloftAGMP/.Start</component>
+             <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gameloft.android.GloftAGMP/.Start;end</intent>
+	     <system-app-kind></system-app-kind>
+	     <original-title>Asphalt Nitro</original-title>
+	     <label-shown>true</label-shown>
+	     <scale-mode>FIXED</scale-mode>
+	     <custom-title></custom-title>
+	     <move>true</move>
+	     <delete>true</delete>
+	     <effect>off</effect>
+	     <effect-type>1</effect-type>
+	   </shortcut>
+
+	<!-- Bubble Bash -->
+           <shortcut>
+             <cell>1,0,1,1</cell>
+             <component>com.gameloft.android.GloftBUB3/.Start</component>
+             <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gameloft.android.GloftBUB3/.Start;end</intent>
+             <system-app-kind></system-app-kind>
+             <original-title>Bubble Bash 3</original-title>
+             <label-shown>true</label-shown>
+             <scale-mode>FIXED</scale-mode>
+             <custom-title></custom-title>
+             <move>true</move>
+             <delete>true</delete>
+             <effect>off</effect>
+             <effect-type>1</effect-type>
+           </shortcut>
+
+        <!-- danger dash -->
+           <shortcut>
+             <cell>2,0,1,1</cell>
+             <component>com.gameloft.android.GloftJDMF/.Start</component>
+             <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gameloft.android.GloftJDMF/.Start;end</intent>
+             <system-app-kind></system-app-kind>
+             <original-title>Danger Dash</original-title>
+             <label-shown>true</label-shown>
+             <scale-mode>FIXED</scale-mode>
+             <custom-title></custom-title>
+             <move>true</move>
+             <delete>true</delete>
+             <effect>off</effect>
+             <effect-type>1</effect-type>
+           </shortcut>
+
+        <!-- Motocross Trial extreme -->
+           <shortcut>
+             <cell>0,1,1,1</cell>
+             <component>com.gameloft.android.GloftMOTR/.Start</component>
+             <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gameloft.android.GloftMOTR/.Start;end</intent>
+             <system-app-kind></system-app-kind>
+             <original-title>Motocross Trial Extreme</original-title>
+             <label-shown>true</label-shown>
+             <scale-mode>FIXED</scale-mode>
+             <custom-title></custom-title>
+             <move>true</move>
+             <delete>true</delete>
+             <effect>off</effect>
+             <effect-type>1</effect-type>
+           </shortcut>
+		
+          <!-- spider-man -->
+           <shortcut>
+             <cell>1,1,1,1</cell>
+             <component>com.gameloft.android.GloftSMIM/.Start</component>
+             <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.gameloft.android.GloftSMIM/.Start;end</intent>
+             <system-app-kind></system-app-kind>
+             <original-title>Spider-Man</original-title>
+             <label-shown>true</label-shown>
+             <scale-mode>FIXED</scale-mode>
+             <custom-title></custom-title>
+             <move>true</move>
+             <delete>true</delete>
+             <effect>off</effect>
+             <effect-type>1</effect-type>
+           </shortcut>
+          
+     </folder>
+
+     <!-- Popular Apps -->
+     <folder>
+       <cell>3,4,1,1</cell>
+       <background></background>
+       <label-shown>true</label-shown>
+       <title>Popular Apps</title>
+       <scale-mode>FIXED</scale-mode>
+       <move>true</move>
+       <delete>true</delete>
+
+           <!-- Clean Master -->
+<!--
+           <shortcut>
+             <cell>0,0,1,1</cell>
+             <component>com.cleanmaster.mguard/com.keniu.security.main.MainActivity</component>	<intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.cleanmaster.mguard/com.keniu.security.main.MainActivity;end</intent>
+             <system-app-kind></system-app-kind>
+             <original-title>Clean Master</original-title>
+             <label-shown>true</label-shown>
+             <scale-mode>FIXED</scale-mode>
+             <custom-title></custom-title>
+             <move>true</move>
+	     <delete>true</delete>
+	     <effect>off</effect>
+	     <effect-type>1</effect-type>
+	   </shortcut>
+-->
+	   <!-- DU Battery -->
+	    <shortcut>
+	      <cell>0,0,1,1</cell>
+	      <component>com.dianxinos.dxbs/com.dianxinos.powermanager.PowerMgrActivity</component>
+	      <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.dianxinos.dxbs/com.dianxinos.powermanager.PowerMgrActivity;end</intent>
+	      <system-app-kind></system-app-kind>
+	      <original-title>DU Battery</original-title>
+	      <label-shown>true</label-shown>
+	      <scale-mode>FIXED</scale-mode>
+	      <custom-title></custom-title>
+	      <move>true</move>
+	      <delete>true</delete>
+	      <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+	    <!-- Gionee Xender -->
+	    <shortcut>
+	      <cell>1,0,1,1</cell>
+	      <component>cn.andouya/cn.andoumiao2.messenger.MainActivity</component>
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=cn.andouya/cn.andoumiao2.messenger.MainActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>Gionee Xender</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+            <!-- Hotoday -->
+            <shortcut>
+              <cell>2,1,1,1</cell>
+              <component>com.inveno.hotoday/com.inveno.newpiflow.activity.StartActivity</component>  
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.inveno.hotoday/com.inveno.newpiflow.activity.StartActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>Hotoday</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+		
+            <!-- facebook messenger-->
+            <shortcut>
+              <cell>0,1,1,1</cell>
+              <component>com.facebook.orca/.auth.StartScreenActivity</component>  
+		  <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.facebook.orca/.auth.StartScreenActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>Messenger</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+            <!-- OLX -->
+            <shortcut>
+              <cell>1,1,1,1</cell>
+              <component>com.olx.southasia/pl.tablica2.activities.MainActivity</component>  
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.olx.southasia/pl.tablica2.activities.MainActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>OLX</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+            <!-- TouchPal X -->
+            <!--
+            <shortcut>
+            <cell>0,2,1,1</cell>
+              <component>com.emoji.keyboard.touchpal/com.cootek.smartinput5.GateActivity</component>
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.emoji.keyboard.touchpal/com.cootek.smartinput5.GateActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>TouchPal X</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+            -->
+
+            <!-- SwiftKey -->
+            <shortcut>
+            <cell>2,1,1,1</cell>
+              <component>com.touchtype.swiftkey/com.touchtype.LauncherActivity</component>
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.touchtype.swiftkey/com.touchtype.LauncherActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>SwiftKey Kevboard</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+            <!-- TrueCaller-->
+            <shortcut>
+              <cell>0,2,1,1</cell>
+              <component>com.truecaller/.ui.TruecallerInit</component>  
+		  <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.truecaller/.ui.TruecallerInit;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>TrueCaller</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+            <!-- wifikey -->
+            <shortcut>
+              <cell>1,2,1,1</cell>
+              <component>com.halo.wifikey.wifilocating/com.lantern.launcher.ui.MainActivity</component>  
+              <intent>#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.halo.wifikey.wifilocating/com.lantern.launcher.ui.MainActivity;end</intent>
+              <system-app-kind></system-app-kind>
+              <original-title>wifikey</original-title>
+              <label-shown>true</label-shown>
+              <scale-mode>FIXED</scale-mode>
+              <custom-title></custom-title>
+              <move>true</move>
+              <delete>true</delete>
+              <effect>off</effect>
+              <effect-type>1</effect-type>
+            </shortcut>
+
+      </folder>
+      </panel>
+    </desktop>
+
+    <display-options>
+      <dock>true</dock>
+      <statusbar>true</statusbar>
+      <screen-max-count>15</screen-max-count>
+      <label>true</label>
+    </display-options>
+    <indicator>
+        <height>33</height>
+    </indicator>
+    <bubble>
+      <bubble-pic>Launcher/bubble/默认/bubble.png</bubble-pic>
+      <position>1</position>
+    </bubble>
+  </workspace>
+</suibian>

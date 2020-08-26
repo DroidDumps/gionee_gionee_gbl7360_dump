@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+     <!-- input method-->
+     <hide
+        packageName="com.android.inputmethod.latin"
+        className="com.android.inputmethod.latin.setup.SetupActivity"/>
+        
+    <!-- Google input method-->
+     <hide
+        packageName="com.google.android.inputmethod.latin"
+        className="com.android.inputmethod.latin.setup.SetupActivity"/>
+        
+     <!-- Google input method for GMS 6_0_r5 -->
+     <hide
+        packageName="com.google.android.inputmethod.latin"
+        className="com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity" />
+</application>
