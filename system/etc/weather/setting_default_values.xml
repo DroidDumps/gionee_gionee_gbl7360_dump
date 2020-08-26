@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting-default xmlns:weather="http://schemas.android.com/apk/res/com.coolwind.weather" >
+    
+    <!-- 通知栏开关 默认开启 true， 关闭 false -->
+    <bool name="open_notification">false</bool>
+    
+    <!-- 全屏动画开关 默认开启 true， 关闭 false -->
+    <bool name="open_fullscreen_animation">false</bool>
+    
+    <!-- 声音开关 默认开启 true， 关闭 false -->
+    <bool name="open_audio">true</bool>
+    
+    <!-- 自动更新开关 默认开启 true， 关闭 false -->
+    <bool name="open_auto_update">true</bool>
+    
+    <!-- 自动更新频率，可选值：   
+              0.5     1      3      6       12       24
+    分别代表  30分钟  1小时   3小时   6小时    12小时   24小时
+    -->
+    <string name="auto_update_frequency">0.5</string>
+    
+    <!-- 自动定位开关  默认开启 true， 关闭 false-->
+    <bool name="open_auto_locate">false</bool>
+    
+    <!-- 带伞提醒开关  默认开启 true， 关闭 false-->
+    <bool name="open_push_umbrella">false</bool>
+    
+    <!-- 预警提醒开关  默认开启 true， 关闭 false-->
+    <bool name="open_push_prewarning">false</bool>
+    
+    <!-- 大风预警提醒开关  默认开启 true， 关闭 false-->
+    <bool name="open_push_winder">false</bool>
+    
+    
+    <!-- 天气锁屏开关 默认开启 true， 关闭 false -->
+    <bool name="open_weather_lockscreen">false</bool>
+    
+    <!-- 天气锁屏音效开关  默认开启 true， 关闭 false-->
+    <bool name="open_weather_lockscreen_audio">false</bool>
+    
+    <!-- 天气锁屏背景的默认类型，1 表示为跟天气背景一样 0 表示自定义背景类型-->
+    <string name="lockscreen_background_type">1</string>
+    
+    <!-- 全屏动画时长，可选值：-1(常驻显示)，30000（30秒）15000（15秒）-->
+    <string name="fullscreen_animation_duration">15000</string>
+    
+    <!-- 天气温度单位，c表示摄氏度，f表示华氏度 -->
+    <string name="temperature_unit">c</string>
+</setting-default>

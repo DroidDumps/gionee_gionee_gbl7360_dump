@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<!-- 桌面循环 -->
+    <switch
+        function="DeskTopLoop"
+        state="true"/>
+    <!-- 主菜单循环 -->
+    <switch
+        function="MainMenuLoop"
+        state="false"/>
+    <!-- 桌面上滑手势 -->
+    <switch
+        function="GestureUp"
+        state="true"/>
+    <!-- 桌面下滑手势 -->
+    <switch
+        function="GestureDown"
+        state="false"/>
+    <!-- 桌面双行显示 -->
+    <switch
+        function="DoubleLine"
+        state="true"/>
+    <!-- 桌面双击灭屏 -->
+    <switch
+        function="QuickLockScreen"
+        state="true"/>
+     <!-- 桌面滑动特效 -->
+     <!-- Classic		:0
+			EDoF		:1
+			Fade in	:2
+			Fan			:3
+			Jump		:4
+			Cube		:5
+			Flip			:6
+			Melt		:7
+			Wave		:8
+			Lean		:9 
+	-->
+    <switch
+        function="DesktopEffect"
+        state="1"/>
+</settings>

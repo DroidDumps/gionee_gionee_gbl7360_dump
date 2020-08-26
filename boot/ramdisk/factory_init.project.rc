@@ -1,0 +1,7 @@
+on fs
+	setprop factory.composite.usb.pid 2035
+	setprop factory.composite.usb.func via_ets,adb,acm
+
+#via_ets,adb,acm
+on property:ro.boot.usbconfig=0
+    write /sys/class/usb_rawbulk/ets/enable 1
